@@ -20,7 +20,9 @@ Running the code is simple, just enter scripts/ and then run
 python3 tester.py 0.05 10
 ~~~
 
-0.05 is a rough upper bound for the difference between real jaccard distance and approximated jaccard distance. 10 is the number of IPv4 feeds for which we load prefix lists during the test, i.e., it is the N in the NxN comparison. You can also do IPv6 runs, just adept the glob.glob call in the code. 
+0.05 is a rough upper bound for the difference between real jaccard distance and approximated jaccard distance. 10 is the number of IPv4 feeds for which we load prefix lists during the test, i.e., it is the N in the NxN comparison. You can also do IPv6 runs, just adept the glob.glob(...) call in the tester code. 
+
+If you want to adpet the method for your own needs and don't care about the performance tests, you find all required functions in scripts/utils.py
 
 # Results
 
